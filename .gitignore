@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model folder (large)
+final_pegasus_model/
+*.bin
+*.pt
+*.ckpt
+venv/
+.ipynb_checkpoints/
+__pycache__/
