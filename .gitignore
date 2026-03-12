@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model/training files
+*.safetensors
+*.pt
+*.bin
+*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit or Docker temporary files
+.streamlit/
+*.db
+*.sqlite
+*.log
+
+# Optional: Docker ignore
+*.tar
+*.tar.gz
+
+# Ignore the large training file
+model.safetensors
+# Python cache files
+__pycache__/
+*.pyc
