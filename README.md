@@ -1,24 +1,22 @@
-﻿# Text Summarization with Pegasus and XSum
+﻿# 📝 Pegasus AI Text Summarizer
 
-## Overview
-This project uses the [Pegasus](https://huggingface.co/google/pegasus-xsum) model for **abstractive text summarization** on the XSum dataset.  
-It generates concise summaries from long text articles using a state-of-the-art transformer model.
+An end-to-end Text Summarization system featuring a **FastAPI** backend powered by **Google's Pegasus-XSum** model and a modern **Streamlit** web interface.
 
-## Features
-- Summarize text with Pegasus transformer.
-- Available as both Python script and Jupyter notebook.
-- Easy to run locally with Python and virtual environment.
+## 🚀 Features
+* **Abstractive Summarization:** Uses Pegasus-XSum to rewrite and condense long articles into concise headlines.
+* **Dual-Service Architecture:** Separated Backend (API) and Frontend (UI) for better performance.
+* **Modern UI:** Clean, responsive interface with real-time word count metrics.
+* **Docker Ready:** Includes configuration for containerized deployment.
 
-## Files in this repository
-- `gm_tx_sum_xsum_pegasus.ipynb` – Jupyter notebook for experiments.
-- `gm_tx_sum_xsum_pegasus.py` – Python script for summarization.
-- `requirements.txt` – Python dependencies.
-- `.gitignore.txt` – Git ignore rules.
-- `README.md` – Project description.
+## 🛠 Tech Stack
+* **Language:** Python 3.10+
+* **AI Model:** [Google/Pegasus-Xsum](https://huggingface.co/google/pegasus-xsum) via Hugging Face Transformers.
+* **Backend:** FastAPI & Uvicorn.
+* **Frontend:** Streamlit.
 
-## Installation
+## ⚙️ Installation & Setup
 
-1. Clone the repository:
-   ```bash
-   git clone <https://github.com/mohamedwaheedeid/text-summarization-pegasus-xsum.git>
-   cd text-summarization-pegasus-xsum
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/mohamedwaheedeid/text-summarization-pegasus-xsum.git](https://github.com/mohamedwaheedeid/text-summarization-pegasus-xsum.git)
+cd text-summarization-pegasus-xsum
