@@ -1,5 +1,14 @@
-venv
-__pycache__
-*.pyc
+# Do not upload the massive model to the Docker build context
+model.safetensors
+*.safetensors
+*.bin
+*.pt
+
+# Ignore local environment and git
+venv/
+.venv/
 .git
 .gitignore
+__pycache__/
+.ipynb_checkpoints/
+
